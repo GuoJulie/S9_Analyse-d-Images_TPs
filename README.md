@@ -1,16 +1,15 @@
 # S9_Analyse-d-Images_TPs
-Analyse d'Images Tps
 
-Comparaison <2020 Rapport --> 2019 Rapport>：
+## Comparaison <2020 Rapport --> 2019 Rapport>：
 
 
-Partie 1 : Types d’images et statistiques images (2 pts)
+### Partie 1 : Types d’images et statistiques images (2 pts)
     
     Q1 --> 2019 - TP1 Q2
     Q2 --> 2019 - TP1 Q3
 
 
-Partie 2 : Filtrage, convolution, détection de contours (4 pts)
+### Partie 2 : Filtrage, convolution, détection de contours (4 pts)
     
     Q1 --> 2019 - TP1 Q5 + Q6
     Q2
@@ -19,7 +18,7 @@ Partie 2 : Filtrage, convolution, détection de contours (4 pts)
     Q5 --> 2019 - TP1 Q10
 
 
-Partie 3 : Images binaires et opérations entre images (4 pts)
+### Partie 3 : Images binaires et opérations entre images (4 pts)
     
     Q1
     Q2 --> 2019 - TP2 Q2
@@ -28,7 +27,7 @@ Partie 3 : Images binaires et opérations entre images (4 pts)
     Q5 --> 2019 -  TP2 Q5
 
 
-Partie 4 : Image Tagging
+### Partie 4 : Image Tagging (9 pts)
     
     --> 2019 - TP3 Q6
 
@@ -38,7 +37,7 @@ Partie 4 : Image Tagging
     Rapport/Presentation : 02 References/IngTagging/Rapport
 
 
-Partie 5 (optionnelle) : Vidéos, Détection de changement de plan et résumé automatique de vidéo (4 pts)
+### Partie 5 (optionnelle) : Vidéos, Détection de changement de plan et résumé automatique de vidéo (4 pts)
     
     Q1
     Q2
