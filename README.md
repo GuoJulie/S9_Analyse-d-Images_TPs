@@ -1,7 +1,6 @@
 # S9_Analyse-d-Images_TPs
-Analyse d'Images Tps
 
-Comparaison <2020 Rapport --> 2019 Rapport>：
+## Comparaison <2020 Rapport --> 2019 Rapport>：
 
 
 Partie 1 : Types d’images et statistiques images (2 pts)
