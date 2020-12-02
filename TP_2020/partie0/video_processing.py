@@ -1,4 +1,5 @@
 # Mon script OpenCV : Video_processing
+import os
 
 import cv2
 
@@ -6,8 +7,13 @@ import cv2
 def frame_processing(imgc):
      return imgc
 
+rep_cour = os.path.dirname(os.getcwd())
+print(rep_cour)
+
+path = rep_cour + '/data/jurassicworld.mp4'
+
 # Lire le vidéo et enregistrer dans une variable cap
-cap = cv2.VideoCapture('data/jurassicworld.mp4')
+cap = cv2.VideoCapture(path)
 
 # Ne pas sortir le boucle while jusqu'à terminer le programme
 while (True):

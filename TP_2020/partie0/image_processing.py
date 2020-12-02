@@ -15,11 +15,12 @@ print (sys.version_info)
 print("OPENCV Version =", cv2.__version__)
 
 # Obtenir le path du fichier python
-rep_cour = os.getcwd()
+rep_cour = os.path.dirname(os.getcwd())
 print(rep_cour)
 
+path = rep_cour + '/data/boats.jpg'
 # Lire une image et changer l'image en niveau de gris au travers de cvtColor
-img = cv2.imread('data/boats.jpg')
+img = cv2.imread(path)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # L'opérateur Laplacian est utilisé pour la détection des contours d'une image
