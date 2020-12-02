@@ -16,6 +16,7 @@ def img_hist(img):
 
 # Afficher l'image d'equalisation
 def img_equ(img):
+    global equ
     equ = cv2.equalizeHist(img)
     res = np.hstack((img, equ))
 
@@ -33,5 +34,6 @@ if __name__ == '__main__':
     img = cv2.imread(path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    # img_hist(img)
+    img_hist(img)
     img_equ(img)
+    img_hist(equ)
