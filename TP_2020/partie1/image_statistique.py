@@ -29,6 +29,14 @@ def img_gris(img_path):
 
     return img
 
+# def img_lisa():
+#     rep_cour = os.path.dirname(os.getcwd())
+#     path_lisa = rep_cour + '/data/lisa.png'
+#
+#     return img_gris(path_lisa)
+
+global img_lisa
+
 if __name__ == '__main__':
     # Obtenir le path du fichier python
     rep_cour = os.path.dirname(os.getcwd())

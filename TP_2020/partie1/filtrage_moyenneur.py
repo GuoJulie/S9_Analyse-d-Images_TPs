@@ -1,7 +1,9 @@
-import os
-import sys
-# import TP_2020.partie1.image_processing
-# print(os.path.dirname(os.getcwd()))
+import image_statistique
+import cv2
+from matplotlib import pyplot as plt
 
-sys.path.append(os.getcwd())  # add work dir to sys path
-print(sys.path)
+plt.imshow(image_statistique.img_lisa, 'gray')
+dim = (5, 5)
+img = cv2.resize(image_statistique.img_lisa, dim)
+plt.imshow(image_statistique.img_lisa, 'gray')
+plt.show()
