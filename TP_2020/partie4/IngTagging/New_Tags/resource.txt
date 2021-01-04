@@ -1,0 +1,10 @@
+https://raw.githubusercontent.com/csailvision/places365/master/categories_places365.txt
+https://raw.githubusercontent.com/csailvision/places365/master/IO_places365.txt
+https://raw.githubusercontent.com/csailvision/places365/master/labels_sunattribute.txt
+http://places2.csail.mit.edu/models_places365/W_sceneattribute_wideresnet18.npy
+http://places2.csail.mit.edu/models_places365/wideresnet18_places365.pth.tar
+https://raw.githubusercontent.com/csailvision/places365/master/wideresnet.py
+https://raw.githubusercontent.com/spmallick/learnopencv/master/Mask-RCNN/colors.txt
+https://raw.githubusercontent.com/spmallick/learnopencv/master/Mask-RCNN/mscoco_labels.names
+https://raw.githubusercontent.com/spmallick/learnopencv/master/Mask-RCNN/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt
+http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz
